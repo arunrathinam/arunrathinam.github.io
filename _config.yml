@@ -4,7 +4,7 @@
 title: Arunkumar Rathinam
 
 # Short description of your site
-description: My website
+description: Research Fellow
 
 # Your name to show in the footer
 author: Arunkumar Rathinam
@@ -43,7 +43,7 @@ social-network-links:
   email: "arunkumar.rathinam@outlook.com"
   github: akum04
   twitter: akum86
-  rss: true
+  rss: false
   linkedin: arunsz
 #  reddit: yourname  
 #  facebook: deanattali

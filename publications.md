@@ -1,13 +1,12 @@
 ---
 layout: page
 title: Publications
-subtitle: My Publications
 ---
 
 
 ### __2020__
 
-Z. Hao, R B Ashith Shyam, Arunkumar Rathinam, and Y. Gao, ‘ICRA2020 Opportunities and Challenges in Space Robotics: Intelligent GNC Architectures and Designs for Orbital Robotic Applications’, 2020, doi: [10.13140/RG.2.2.15175.73124](https://doi.org/10.13140/RG.2.2.15175.73124).
+Z. Hao, R B Ashith Shyam, A. Rathinam, and Y. Gao, ‘ICRA2020 Opportunities and Challenges in Space Robotics: Intelligent GNC Architectures and Designs for Orbital Robotic Applications’, 2020, doi: [10.13140/RG.2.2.15175.73124](https://doi.org/10.13140/RG.2.2.15175.73124).
 
 A. Shyam, A. Rathinam, and Z. Hao, ‘Trajectory Tracking and Control of Multiple Robot Arms on a Free-Floating Spacecraft for Debris Removal’, in *UKRAS20 Conference: “Robots into the real world” Proceedings*, May 2020, pp. 30–32, doi: [10.31256/Jp9Yd3M](https://doi.org/10.31256/Jp9Yd3M).
 
