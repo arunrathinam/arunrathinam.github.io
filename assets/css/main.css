@@ -600,11 +600,11 @@ footer .footer-custom-content {
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
 }
-.intro-header .page-heading h1 {
+.intro-header .page-heading h2 {
   margin-top: 0;
   font-size: 2.1875rem;
 }
-.intro-header .post-heading h1 {
+.intro-header .post-heading h2 {
   margin-top: 0;
   font-size: 2.1875rem;
 }
