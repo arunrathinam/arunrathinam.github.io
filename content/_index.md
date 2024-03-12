@@ -67,7 +67,7 @@ sections:
           company_url: https://www.uni.lu/snt-en/
           company_logo: uni-lu
           location: Luxembourg
-          date_start: '2021-09'
+          date_start: '2021-09-15'
           date_end: ''
           description: Computer Vision for Space Applications
         - title: Research Associate
@@ -75,8 +75,8 @@ sections:
           company_url: https://www.surrey.ac.uk/surrey-space-centre
           company_logo: uos-black
           location: United Kingdom
-          date_start: '2019-05'
-          date_end: '2021-09'
+          date_start: '2019-05-01'
+          date_end: '2021-09-10'
           description: Computer Vision for Space Applications
     design:
       columns: '2'
