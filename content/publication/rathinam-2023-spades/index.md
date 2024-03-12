@@ -11,9 +11,9 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'SnT, University of Luxembourg'
   - ''
-  - 'SnT, University of Luxembourg'
+  - ''
+  - ''
 
 date: '2024-05-12T00:00:00Z'
 doi: ''
@@ -52,12 +52,12 @@ url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: 'http://cvi2.uni.lu/spades'
-url_video: 'https://youtube.com'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ' '
   focal_point: ''
   preview_only: false
 
