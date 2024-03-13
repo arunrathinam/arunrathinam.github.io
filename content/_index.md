@@ -212,8 +212,8 @@ sections:
   - block: markdown
     id: news
     content:
-      title: Latest News
-      subtitle: ''
+      title: News
+      subtitle: Latest
       text: |2-
       - **[Feb 8, 2024]** Our article **SPADES: A Realistic Spacecraft Pose Estimation Dataset using Event Sensing** has been accepted for presentation at the **2024 IEEE International Conference on Robotics and Automation (ICRA)**, May 13-17, Yokohama, Japan.
       - **[Oct 15, 2023]** I'll present on *Opportunities and Challenges in Deep Learning-based Spacecraft Pose Estimation for Future In-orbit Servicing missions.* 
