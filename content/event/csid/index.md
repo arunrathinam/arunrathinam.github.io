@@ -1,5 +1,5 @@
 ---
-title: Opportunities and Challenges in Deep Learning-based Spacecraft Pose Estimation for Future In-orbit Servicing missions.
+title: Opportunities and Challenges in Deep Learning-based Spacecraft Pose Estimation for Future In-orbit Servicing missions
 
 event: ESA - 2023 Clean Space Industry Days
 event_url: https://indico.esa.int/event/450/
@@ -28,13 +28,13 @@ image:
   caption: 
   focal_point: Centre
 
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/akum86
+# links:
+#   - icon: twitter
+#     icon_pack: fab
+#     name: Follow
+#     url: https://twitter.com/akum86
 url_code: ''
-url_pdf: 'https://indico.esa.int/event/450/contributions/8928/attachments/5743/9499/ESA-CSID-Rathinam.pdf'
+url_pdf: ''
 url_slides: 'https://indico.esa.int/event/450/contributions/8928/attachments/5743/9499/ESA-CSID-Rathinam.pdf'
 url_video: ''
 
@@ -43,7 +43,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+# slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -51,7 +51,7 @@ slides: example
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-  - example
+  - spacecraft_pose
 ---
 
 In recent years, interest towards in-orbit servicing (IOS) and active debris removal (ADR) has been increasing rapidly, thus resulting in increased technology demonstration and commercial orbital-servicing missions. Future IOS and ADR missions are expected to be more autonomous, and sensor perception is critical to gain knowledge and information about the target, especially if the target is known and non-cooperative. Monocular sensors are widely preferred in space applications due to mass limitations imposed by other sensors, such as LiDARs. Monocular vision sensors encompass various sensors such as RGB, Thermal/Infrared, and Event Cameras, each with different data but operating under the single principle of pin-hole cameras. RGB cameras have been prominent in space missions and have a long space heritage for earth-orbit and deep-space missions. Recent developments in computer vision and AI, especially deep learning, unlock new realms of possibility with monocular vision sensors. In IOS and ADR missions, it enables more autonomous spacecraft with a wide range of capabilities, including navigation, rendezvous and docking scenarios, grasping and manipulating objects using actuators such as robotic arms, and many others. As deep learning research evolves in this space domain, the challenges encountered will be specific to the characteristics of the spacecraft environment domain.

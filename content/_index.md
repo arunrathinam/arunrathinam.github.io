@@ -56,22 +56,11 @@ sections:
       title: Latest News
       subtitle: ""
       text: |2-
-        - **[Feb 8, 2024]** Our article **SPADES: A Realistic Spacecraft Pose Estimation Dataset using Event Sensing** has been accepted for presentation at the **2024 IEEE International Conference on Robotics and Automation (ICRA)**, May 13-17, Yokohama, Japan.
-        - **[Oct 15, 2023]** I'll present on *Opportunities and Challenges in Deep Learning-based Spacecraft Pose Estimation for Future In-orbit Servicing missions.* 
+        - **[Feb 8, 2024]** Our recent dataset paper **SPADES: A Realistic Spacecraft Pose Estimation Dataset using Event Sensing** has been accepted at the **2024 IEEE International Conference on Robotics and Automation (ICRA)**, May 13-17, Yokohama, Japan.
+        - **[Oct 15, 2023]** I'll present about [Opportunities and Challenges in Deep Learning-based Spacecraft Pose Estimation for Future In-orbit Servicing missions](./talk/opportunities-and-challenges-in-deep-learning-based-spacecraft-pose-estimation-for-future-in-orbit-servicing-missions/) at ESA CleanSpace Industry days
         - **[Aug 10, 2023]** Our survey article **Deep Learning-Based Monocular Spacecraft Pose Estimation: Current State, Limitations and Prospects** has been accepted for publication in *Acta Astronautica* [Paper](https://www.sciencedirect.com/science/article/pii/S0094576523003995).
     design:
       columns: '2'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
   - block: experience
     id: experience
     content:
@@ -172,13 +161,16 @@ sections:
   #     # Choose a layout view
   #     view: list
   #     columns: '2'
-  # - block: portfolio
-  #   id: projects
-  #   content:
-  #     title: Projects
-  #     filters:
-  #       folders:
-  #         - project
+  - block: portfolio
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - project
+    design:
+      columns: '2'
+      view: card
   #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   #     default_button_index: 0
   #     # Filter toolbar (optional).
@@ -207,7 +199,17 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
   - block: collection
     id: publications
     content:
