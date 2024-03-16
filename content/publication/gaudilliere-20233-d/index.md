@@ -25,7 +25,7 @@ date: '2023-06-12T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2023-07-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -34,7 +34,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE/RSJ International Conference on Intelligent Robots and Systems (2023)*
-publication_short: In *IROS(2023)*
+publication_short: In **IROS 2023**
 
 abstract: To automatically localize a target object in an image is crucial for many computer vision applications. To represent the 2D object, ellipse labels have recently been identified as a promising alternative to axis-aligned bounding boxes. This paper further considers 3D-aware ellipse labels, i.e., ellipses which are projections of a 3D ellipsoidal approximation of the object, for 2D target localization. Indeed, projected ellipses carry more geometric information about the object geometry and pose (3D awareness) than traditional 3D-agnostic bounding box labels. Moreover, such a generic 3D ellipsoidal model allows for approximating known to coarsely known targets. We then propose to have a new look at ellipse regression and replace the discontinuous geometric ellipse parameters with the parameters of an implicit Gaussian distribution encoding object occupancy in the image. The models are trained to regress the values of this bivariate Gaussian distribution over the image pixels using a statistical loss function. We introduce a novel non-trainable differentiable layer, E-DSNT, to extract the distribution parameters. Also, we describe how to readily generate consistent 3D-aware Gaussian occupancy parameters using only coarse dimensions of the target and relative pose labels. We extend three existing spacecraft pose estimation datasets with 3D-aware Gaussian occupancy labels to validate our hypothesis. Labels and source code are publicly accessible here:-[https://cvi2.uni.lu/3d-aware-obj-loc/](https://cvi2.uni.lu/3d-aware-obj-loc/).
 

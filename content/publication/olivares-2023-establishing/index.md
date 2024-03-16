@@ -5,7 +5,7 @@ authors:
 - Miguel Olivares-Mendez
 - Barış Can Yalçın
 - Mohatashem Reyaz Makhdoomi
-- ' others'
+- 'et. al.'
 date: '2023-01-01'
 publishDate: '2024-03-07T15:06:01.654581Z'
 publication_types:

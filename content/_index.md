@@ -56,9 +56,11 @@ sections:
       title: Latest News
       subtitle: ""
       text: |2-
-        - **[Feb 8, 2024]** Our recent dataset paper **SPADES: A Realistic Spacecraft Pose Estimation Dataset using Event Sensing** has been accepted at the **2024 IEEE International Conference on Robotics and Automation (ICRA)**, May 13-17, Yokohama, Japan.
+        - **[Feb 20, 2024]** I'll co-organize the third edition of [SPARK challenge](https://cvi2.uni.lu/spark2024/) as part of the [AI4Space](https://aiforspace.github.io/2024/) workshop, in conjunction with the [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024).
+        - **[Feb 8, 2024]** Our recent dataset paper [SPADES: A Realistic Spacecraft Pose Estimation Dataset using Event Sensing](https://arxiv.org/pdf/2311.05310) has been accepted at the [2024 ICRA](https://2024.ieee-icra.org/), May 13-17, Yokohama, Japan.
         - **[Oct 15, 2023]** I'll present about [Opportunities and Challenges in Deep Learning-based Spacecraft Pose Estimation for Future In-orbit Servicing missions](./talk/opportunities-and-challenges-in-deep-learning-based-spacecraft-pose-estimation-for-future-in-orbit-servicing-missions/) at ESA CleanSpace Industry days
-        - **[Aug 10, 2023]** Our survey article **Deep Learning-Based Monocular Spacecraft Pose Estimation: Current State, Limitations and Prospects** has been accepted for publication in *Acta Astronautica* [Paper](https://www.sciencedirect.com/science/article/pii/S0094576523003995).
+        - **[Aug 10, 2023]** Our survey article [Deep Learning-Based Monocular Spacecraft Pose Estimation: Current State, Limitations and Prospects](https://www.sciencedirect.com/science/article/pii/S0094576523003995) has been accepted for publication in *Acta Astronautica*.
+        - **[July 10, 2023]** Our Machine learning experiment **AI4SPACE** launched into orbit successfully [link](https://www.uni.lu/en/news/ai4space-snt-launches-in-space-machine-learning-experiment/)
     design:
       columns: '2'
   - block: experience
@@ -170,7 +172,7 @@ sections:
           - project
     design:
       columns: '2'
-      view: card
+      view: list
   #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   #     default_button_index: 0
   #     # Filter toolbar (optional).
@@ -240,56 +242,56 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
-      text: ''
-      # |-
-        # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
-      # Contact (add or remove contact options as necessary)
-      email: arunkumar.rathinam@uni.lu
-      # phone: 888 888 88 88
-      # appointment_url: 'https://calendly.com'
-      address:
-        street: 6 Rue Richard Coudenhove-Kalergi
-        city: Kirchberg 
-        region: 
-        postcode: '1359'
-        country: Luxembourg
-        country_code: LU
-      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      # office_hours:
-      #   - 'Monday 10:00 to 13:00'
-      #   - 'Wednesday 09:00 to 10:00'
-      # Choose a map provider in `params.yaml` to show a map from these coordinates
-      # coordinates:
-      #   latitude: '37.4275'
-      #   longitude: '-122.1697'  
-      # contact_links:
-      #   - icon: twitter
-      #     icon_pack: fab
-      #     name: DM Me
-      #     link: 'https://twitter.com/Twitter'
-      #   - icon: skype
-      #     icon_pack: fab
-      #     name: Skype Me
-      #     link: 'skype:echo123?call'
-      #   - icon: video
-      #     icon_pack: fas
-      #     name: Zoom Me
-      #     link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
-      # autolink: true
-      # Email form provider
-      # form:
-      #   provider: netlify
-      #   formspree:
-      #     id:
-      #   netlify:
-      #     # Enable CAPTCHA challenge to reduce spam?
-      #     captcha: false
-    design:
-      columns: '2'
+  # - block: contact
+  #   id: contact
+  #   content:
+  #     title: Contact
+  #     subtitle:
+  #     text: ''
+  #     # |-
+  #       # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+  #     # Contact (add or remove contact options as necessary)
+  #     email: arunkumar.rathinam@uni.lu
+  #     # phone: 888 888 88 88
+  #     # appointment_url: 'https://calendly.com'
+  #     address:
+  #       street: 6 Rue Richard Coudenhove-Kalergi
+  #       city: Kirchberg 
+  #       region: 
+  #       postcode: '1359'
+  #       country: Luxembourg
+  #       country_code: LU
+  #     # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  #     # office_hours:
+  #     #   - 'Monday 10:00 to 13:00'
+  #     #   - 'Wednesday 09:00 to 10:00'
+  #     # Choose a map provider in `params.yaml` to show a map from these coordinates
+  #     # coordinates:
+  #     #   latitude: '37.4275'
+  #     #   longitude: '-122.1697'  
+  #     # contact_links:
+  #     #   - icon: twitter
+  #     #     icon_pack: fab
+  #     #     name: DM Me
+  #     #     link: 'https://twitter.com/Twitter'
+  #     #   - icon: skype
+  #     #     icon_pack: fab
+  #     #     name: Skype Me
+  #     #     link: 'skype:echo123?call'
+  #     #   - icon: video
+  #     #     icon_pack: fas
+  #     #     name: Zoom Me
+  #     #     link: 'https://zoom.com'
+  #     # Automatically link email and phone or display as text?
+  #     # autolink: true
+  #     # Email form provider
+  #     # form:
+  #     #   provider: netlify
+  #     #   formspree:
+  #     #     id:
+  #     #   netlify:
+  #     #     # Enable CAPTCHA challenge to reduce spam?
+  #     #     captcha: false
+  #   design:
+  #     columns: '2'
 ---
