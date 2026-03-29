@@ -369,18 +369,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-opportunities-and-challenges-in-dl-based-spacecraft-pose-estimation-for-future-in-orbit-servicing-missions",
+            },},{id: "news-our-machine-learning-experiment-ai4space-launched-into-orbit-successfully",
+          title: 'Our Machine learning experiment AI4SPACE launched into orbit successfully',
+          description: "",
+          section: "News",},{id: "news-opportunities-and-challenges-in-dl-based-spacecraft-pose-estimation-for-future-in-orbit-servicing-missions",
           title: 'Opportunities and Challenges in DL-based Spacecraft Pose Estimation for Future In-orbit Servicing missions...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3.html";
-            },},{id: "news-our-machine-learning-experiment-ai4space-launched-into-orbit-successfully",
-          title: 'Our Machine learning experiment AI4SPACE launched into orbit successfully',
-          description: "",
-          section: "News",},{id: "news-our-survey-article-deep-learning-based-monocular-spacecraft-pose-estimation-current-state-limitations-and-prospects-has-been-accepted-for-publication-in-acta-astronautica",
-          title: 'Our survey article Deep Learning-Based Monocular Spacecraft Pose Estimation: Current State, Limitations and...',
-          description: "",
-          section: "News",},{id: "news-paper-accepted-at-icra-39-24",
+            },},{id: "news-paper-accepted-at-icra-39-24",
           title: 'Paper Accepted at ICRA&amp;#39;24',
           description: "",
           section: "News",handler: () => {
@@ -388,11 +385,11 @@ ninja.data = [{
             },},{id: "news-i-ll-co-organize-the-third-edition-of-spark-challenge-at-cvpr-2024",
           title: 'I’ll co-organize the third edition of SPARK challenge at CVPR 2024',
           description: "",
-          section: "News",},{id: "news-i-ll-organize-the-fourth-edition-of-spark-challenge-at-cvpr-26",
-          title: 'I’ll organize the fourth edition of SPARK challenge at CVPR’26',
-          description: "",
           section: "News",},{id: "news-i-ll-co-organize-the-ai4space-workshop-at-cvpr-26",
           title: 'I’ll co-organize the AI4SPACE workshop at CVPR’26',
+          description: "",
+          section: "News",},{id: "news-i-ll-organize-the-fourth-edition-of-spark-challenge-at-cvpr-26",
+          title: 'I’ll organize the fourth edition of SPARK challenge at CVPR’26',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
