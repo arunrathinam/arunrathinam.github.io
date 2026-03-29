@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'll organize the fourth edition of [SPARK challenge](https://cvi2.uni.lu/spark2026/) at [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026)
+I'll organize the fourth edition of [SPARK challenge](https://cvi2.uni.lu/spark2026/) at [CVPR'26](https://cvpr.thecvf.com/Conferences/2026)

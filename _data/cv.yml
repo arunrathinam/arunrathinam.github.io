@@ -80,82 +80,7 @@ cv:
         start_date: 2007-12
         end_date: 2011-01
 
-    Awards:
-      - title: Winner, Move an Asteroid Technical Paper Competition
-        date: 2018
-        awarder: Space Generation Advisory Council (SGAC), Bremen
-        summary: Awarded at the Space Generation Congress for outstanding technical contribution.
-
-      - title: IAC Travel Grant / Sponsorship
-        date: 2017
-        awarder: National Space Society of Australia
-        summary: Awarded to attend the International Astronautical Congress.
-
-      - title: UNSW Departmental PhD Scholarship
-        date: 2015
-        awarder: University of New South Wales
-        summary: Full tuition coverage plus living stipend for the duration of PhD candidature.
-
-      - title: Erasmus Mobility Grant
-        date: 2013
-        awarder: European Commission
-        summary: Competitive grant awarded for Master's exchange year.
-
-      - title: Top Achiever Award
-        date: 2012
-        awarder: SKF Technologies Limited
-        summary: Ranked 1st in performance assessment during tenure at SKF India.
-
-    Skills:
-      - name: Deep Learning
-        level: Expert
-        keywords: "PyTorch, PyTorch Lightning, TensorFlow, Hydra, OpenCV, NumPy"
-
-      - name: Robotics & Simulation
-        level: Expert
-        keywords: "ROS, PANGU (ESA), Unreal Engine 4, Blender"
-
-      - name: Programming
-        level: Expert
-        keywords: "Python, C++, MATLAB, Julia"
-
-      - name: Embedded AI
-        level: Advanced
-        keywords: "NVIDIA Jetson (Nano / Xavier NX), Arduino, Edge Inference Optimization"
-
-      - name: Mechanical Engineering
-        level: Advanced
-        keywords: "Creo, CATIA V5, SolidWorks, NASTRAN, COMSOL"
-
-      - name: DevOps & Tools
-        level: Advanced
-        keywords: "Git, Docker, Nginx, Gunicorn"
-
-    Languages:
-      - name: English
-        summary: "Fluent"
-      - name: Tamil
-        summary: "Native speaker"
-      - name: German
-        summary: "Basic"
-
-    Projects:
-      - name: DIOSSA (ESA GSTP)
-        summary: Multi-phase ESA-funded project developing deep learning solutions for spacecraft pose estimation. Program Lead overseeing team of researchers, work package execution, and ESA reviews.
-        highlights:
-          - Phase 1 (24 months) and Phase 2 (18 months) successfully delivered.
-          - "Outcomes: 3 ESA reviews passed, 5 conference publications."
-        start_date: 2022
-        end_date: present
-
-      - name: FAIR-SPACE
-        summary: UK Research and Innovation funded project on autonomous space robotics. Developed DL algorithms for 6DoF spacecraft pose estimation and evaluated on edge hardware.
-        highlights:
-          - Developed ORVIS orbital simulation tool for training data generation.
-          - "Output: 2 journal publications, 1 book chapter, 2 conference publications."
-        start_date: 2019
-        end_date: 2021
-
+    Space Mission Experience:
       - name: SnT-AI4SPACE Mission
         summary: Deployed an onboard AI anomaly detection system, validated on flight hardware.
         start_date: 2022
@@ -170,3 +95,11 @@ cv:
         summary: Developed mechanical design for electric propulsion integration, verified via structural and orbital thermal analysis.
         start_date: 2015
         end_date: 2015
+
+    Languages:
+      - name: English
+        summary: "Fluent"
+      - name: Tamil
+        summary: "Native speaker"
+      - name: German
+        summary: "Basic"
