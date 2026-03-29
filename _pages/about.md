@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research Scientist at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research lies at the intersection of computer vision and space robotics. I am interested in building AI systems that can bridge the gap between simulation and real data for spacecraft pose estimation, and leveraging these capabilities to enable autonomous relative navigation and on-orbit servicing missions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to joining SnT, I was a Research Associate at the Surrey Space Centre, University of Surrey, where I developed deep learning algorithms for non-cooperative spacecraft pose estimation and contributed to the FAIR-SPACE project. I received my Ph.D. from the University of New South Wales (UNSW) Sydney, where I worked on SLAM-based autonomous navigation for small body exploration. I completed my M.Sc. in Space Science and Technology at the University of Würzburg, Germany, where I contributed to the UWE-4 CubeSat mission. 
