@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: Research Scientist @ University of Luxembourg
 
 profile:
   align: right
