@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-13'
 papers:
   zC2Ri2MAAAAJ:-f6ydRqryjwC:
     citations: 19
@@ -17,12 +17,16 @@ papers:
     citations: 16
     title: On-Orbit Relative Navigation Near a Known Target Using Monocular Vision and Convolutional Neural Networks for Pose Estimation
     year: '2020'
+  zC2Ri2MAAAAJ:70eg2SAEIzsC:
+    citations: 0
+    title: Efficient Onboard Spacecraft Pose Estimation with Event Cameras and Neuromorphic Hardware
+    year: '2026'
   zC2Ri2MAAAAJ:7PzlFSSx8tAC:
     citations: 5
     title: Autonomous visual navigation for spacecraft on-orbit operations
     year: '2021'
   zC2Ri2MAAAAJ:BqipwSGYUEgC:
-    citations: 13
+    citations: 14
     title: AI-enabled thermal monitoring of commercial (PHEV) Li-ion pouch cells with Feature-Adapted Unsupervised Anomaly Detection
     year: '2025'
   zC2Ri2MAAAAJ:IjCSPb-OGe4C:
@@ -94,7 +98,7 @@ papers:
     title: Effective utilization of space service volume through combined GNSS
     year: '2016'
   zC2Ri2MAAAAJ:bEWYMUwI8FkC:
-    citations: 44
+    citations: 45
     title: 'Zero-G Lab: A multi-purpose facility for emulating space operations'
     year: '2023'
   zC2Ri2MAAAAJ:dhFuZR0502QC:
@@ -102,7 +106,7 @@ papers:
     title: 'Autonomous robots for space: Trajectory learning and adaptation using imitation'
     year: '2021'
   zC2Ri2MAAAAJ:e5wmG9Sq2KIC:
-    citations: 128
+    citations: 130
     title: 'A survey on deep learning-based monocular spacecraft pose estimation: Current state, limitations and prospects'
     year: '2023'
   zC2Ri2MAAAAJ:hFOr9nPyWt4C:
@@ -126,7 +130,7 @@ papers:
     title: Octree-based mascon model for small body gravity fields
     year: '2019'
   zC2Ri2MAAAAJ:k_IJM867U9cC:
-    citations: 25
+    citations: 26
     title: 'Spades: A realistic spacecraft pose estimation dataset using event sensing'
     year: '2024'
   zC2Ri2MAAAAJ:lSLTfruPkqcC:
@@ -142,7 +146,7 @@ papers:
     title: Trajectory Tracking and Control of Multiple Robot Arms on a Free-Floating Spacecraft for Debris Removal
     year: '2020'
   zC2Ri2MAAAAJ:ns9cj8rnVeAC:
-    citations: 0
+    citations: 1
     title: MOTION AWARE VIT-BASED FRAMEWORK FOR MONOCULAR 6-DOF SPACECRAFT POSE ESTIMATION
     year: '2025'
   zC2Ri2MAAAAJ:qUcmZB5y_30C:
