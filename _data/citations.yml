@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-06'
+  last_updated: '2026-05-15'
 papers:
   zC2Ri2MAAAAJ:-f6ydRqryjwC:
     citations: 20
@@ -14,7 +14,7 @@ papers:
     title: Orbital analysis of a reusable CubeSat platform to relay communications for rovers on an asteroid
     year: '2018'
   zC2Ri2MAAAAJ:4DMP91E08xMC:
-    citations: 18
+    citations: 19
     title: On-Orbit Relative Navigation Near a Known Target Using Monocular Vision and Convolutional Neural Networks for Pose Estimation
     year: '2020'
   zC2Ri2MAAAAJ:70eg2SAEIzsC:
@@ -102,11 +102,11 @@ papers:
     title: 'Zero-G Lab: A multi-purpose facility for emulating space operations'
     year: '2023'
   zC2Ri2MAAAAJ:dhFuZR0502QC:
-    citations: 24
+    citations: 25
     title: 'Autonomous robots for space: Trajectory learning and adaptation using imitation'
     year: '2021'
   zC2Ri2MAAAAJ:e5wmG9Sq2KIC:
-    citations: 136
+    citations: 137
     title: 'A survey on deep learning-based monocular spacecraft pose estimation: Current state, limitations and prospects'
     year: '2023'
   zC2Ri2MAAAAJ:hFOr9nPyWt4C:
