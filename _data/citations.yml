@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-07-31'
 papers:
   zC2Ri2MAAAAJ:-f6ydRqryjwC:
-    citations: 20
+    citations: 22
     title: 'CubeSat-CDT: A cross-domain dataset for 6-DoF trajectory estimation of a symmetric spacecraft'
     year: '2022'
   zC2Ri2MAAAAJ:35N4QoGY0k4C:
@@ -18,15 +18,15 @@ papers:
     title: On-Orbit Relative Navigation Near a Known Target Using Monocular Vision and Convolutional Neural Networks for Pose Estimation
     year: '2020'
   zC2Ri2MAAAAJ:70eg2SAEIzsC:
-    citations: 0
-    title: Efficient Onboard Spacecraft Pose Estimation with Event Cameras and Neuromorphic Hardware
+    citations: 2
+    title: Efficient onboard spacecraft pose estimation with event cameras and neuromorphic hardware
     year: '2026'
   zC2Ri2MAAAAJ:7PzlFSSx8tAC:
     citations: 5
     title: Autonomous visual navigation for spacecraft on-orbit operations
     year: '2021'
   zC2Ri2MAAAAJ:BqipwSGYUEgC:
-    citations: 16
+    citations: 18
     title: AI-enabled thermal monitoring of commercial (PHEV) Li-ion pouch cells with Feature-Adapted Unsupervised Anomaly Detection
     year: '2025'
   zC2Ri2MAAAAJ:IjCSPb-OGe4C:
@@ -41,8 +41,12 @@ papers:
     citations: 0
     title: Thermal Anomaly Detection for Battery Safety in Electric Vehicles
     year: Unknown Year
+  zC2Ri2MAAAAJ:M05iB0D1s5AC:
+    citations: 0
+    title: Unsupervised Domain Adaptation for Sim-to-Real Object Pose Estimation with Contrastive Alignment and Pseudo-Label Refinement
+    year: '2026'
   zC2Ri2MAAAAJ:M3NEmzRMIkIC:
-    citations: 7
+    citations: 8
     title: 'SPARK 2024: Datasets for Spacecraft Semantic Segmentation and Spacecraft Trajectory Estimation'
     year: '2024'
   zC2Ri2MAAAAJ:MXK_kJrjxJIC:
@@ -50,19 +54,19 @@ papers:
     title: Vision based state estimation using a graph-SLAM approach for proximity operations near an asteroid
     year: '2018'
   zC2Ri2MAAAAJ:NMxIlDl6LWMC:
-    citations: 3
+    citations: 4
     title: Lean demonstration of on-board thermal anomaly detection using machine learning
     year: '2024'
   zC2Ri2MAAAAJ:NaGl4SEjCO4C:
-    citations: 0
+    citations: 1
     title: Domain Adaptive Object Detection for Space Applications with Real-Time Constraints
     year: '2025'
   zC2Ri2MAAAAJ:QIV2ME_5wuYC:
-    citations: 15
+    citations: 17
     title: Intelligent spacecraft visual GNC architecture with the state-of-the-art AI components for on-orbit manipulation
     year: '2021'
   zC2Ri2MAAAAJ:RGFaLdJalmkC:
-    citations: 2
+    citations: 3
     title: 'Bridging the Synthetic-Real Gap: Supervised Domain Adaptation for Robust Spacecraft 6-DoF Pose Estimation'
     year: '2025'
   zC2Ri2MAAAAJ:Se3iqnhoufwC:
@@ -90,7 +94,7 @@ papers:
     title: Geometrical assessment of Multi-GNSS prospects for Space Service Volume
     year: '2016'
   zC2Ri2MAAAAJ:YFjsv_pBGBYC:
-    citations: 6
+    citations: 7
     title: Hybrid Attention for Robust RGB-T Pedestrian Detection in Real-World Conditions
     year: '2024'
   zC2Ri2MAAAAJ:YsMSGLbcyi4C:
@@ -98,17 +102,21 @@ papers:
     title: Effective utilization of space service volume through combined GNSS
     year: '2016'
   zC2Ri2MAAAAJ:bEWYMUwI8FkC:
-    citations: 48
+    citations: 50
     title: 'Zero-G Lab: A multi-purpose facility for emulating space operations'
     year: '2023'
   zC2Ri2MAAAAJ:dhFuZR0502QC:
-    citations: 25
+    citations: 26
     title: 'Autonomous robots for space: Trajectory learning and adaptation using imitation'
     year: '2021'
   zC2Ri2MAAAAJ:e5wmG9Sq2KIC:
-    citations: 145
+    citations: 160
     title: 'A survey on deep learning-based monocular spacecraft pose estimation: Current state, limitations and prospects'
     year: '2023'
+  zC2Ri2MAAAAJ:g5m5HwL7SMYC:
+    citations: 0
+    title: Unsupervised Domain Adaptation for Sim-to-Real Object Pose Estimation with Contrastive Alignment and Pseudo-Label Refinement
+    year: '2026'
   zC2Ri2MAAAAJ:hFOr9nPyWt4C:
     citations: 7
     title: Pose estimation of a known texture-less space target using convolutional neural networks
@@ -122,7 +130,7 @@ papers:
     title: 'Establishing a multi-functional space operations emulation facility: Insights from the zero-g lab'
     year: '2023'
   zC2Ri2MAAAAJ:j3f4tGmQtD8C:
-    citations: 15
+    citations: 16
     title: 'SPARK 2022 Dataset : Spacecraft Detection and Trajectory Estimation'
     year: '2022'
   zC2Ri2MAAAAJ:kNdYIx-mwKoC:
@@ -130,12 +138,16 @@ papers:
     title: Octree-based mascon model for small body gravity fields
     year: '2019'
   zC2Ri2MAAAAJ:k_IJM867U9cC:
-    citations: 30
+    citations: 34
     title: 'Spades: A realistic spacecraft pose estimation dataset using event sensing'
-    year: '2024'
+    year: '2023'
   zC2Ri2MAAAAJ:lSLTfruPkqcC:
     citations: 0
     title: Annotation Free Spacecraft Detection and Segmentation using Vision Language Models
+    year: '2026'
+  zC2Ri2MAAAAJ:ldfaerwXgEUC:
+    citations: 0
+    title: 'TALON: Token-Aligned Lightweight Adapters for 6-DoF Spacecraft Pose Estimation'
     year: '2026'
   zC2Ri2MAAAAJ:mB3voiENLucC:
     citations: 13
@@ -146,13 +158,13 @@ papers:
     title: Trajectory Tracking and Control of Multiple Robot Arms on a Free-Floating Spacecraft for Debris Removal
     year: '2020'
   zC2Ri2MAAAAJ:ns9cj8rnVeAC:
-    citations: 3
+    citations: 4
     title: MOTION AWARE VIT-BASED FRAMEWORK FOR MONOCULAR 6-DOF SPACECRAFT POSE ESTIMATION
     year: '2025'
   zC2Ri2MAAAAJ:qUcmZB5y_30C:
-    citations: 25
-    title: 'Lessons from a space lab: An image acquisition perspective'
-    year: '2023'
+    citations: 26
+    title: Lessons from a Space Lab--An Image Acquisition Perspective
+    year: '2022'
   zC2Ri2MAAAAJ:qxL8FJ1GzNcC:
     citations: 2
     title: Small body gravimetry using SLAM-based autonomous navigation
