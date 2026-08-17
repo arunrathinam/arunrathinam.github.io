@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-17'
 papers:
   zC2Ri2MAAAAJ:-f6ydRqryjwC:
-    citations: 22
+    citations: 23
     title: 'CubeSat-CDT: A cross-domain dataset for 6-DoF trajectory estimation of a symmetric spacecraft'
     year: '2022'
   zC2Ri2MAAAAJ:35N4QoGY0k4C:
@@ -26,8 +26,8 @@ papers:
     title: Autonomous visual navigation for spacecraft on-orbit operations
     year: '2021'
   zC2Ri2MAAAAJ:BqipwSGYUEgC:
-    citations: 18
-    title: AI-enabled thermal monitoring of commercial (PHEV) Li-ion pouch cells with Feature-Adapted Unsupervised Anomaly Detection
+    citations: 19
+    title: Ai-enabled thermal monitoring of commercial (phev) li-ion pouch cells with feature-adapted unsupervised anomaly detection
     year: '2025'
   zC2Ri2MAAAAJ:IjCSPb-OGe4C:
     citations: 9
@@ -54,7 +54,7 @@ papers:
     title: Vision based state estimation using a graph-SLAM approach for proximity operations near an asteroid
     year: '2018'
   zC2Ri2MAAAAJ:NMxIlDl6LWMC:
-    citations: 4
+    citations: 5
     title: Lean demonstration of on-board thermal anomaly detection using machine learning
     year: '2024'
   zC2Ri2MAAAAJ:NaGl4SEjCO4C:
@@ -62,7 +62,7 @@ papers:
     title: Domain Adaptive Object Detection for Space Applications with Real-Time Constraints
     year: '2025'
   zC2Ri2MAAAAJ:QIV2ME_5wuYC:
-    citations: 17
+    citations: 16
     title: Intelligent spacecraft visual GNC architecture with the state-of-the-art AI components for on-orbit manipulation
     year: '2021'
   zC2Ri2MAAAAJ:RGFaLdJalmkC:
@@ -95,10 +95,10 @@ papers:
     year: '2016'
   zC2Ri2MAAAAJ:YFjsv_pBGBYC:
     citations: 7
-    title: Hybrid Attention for Robust RGB-T Pedestrian Detection in Real-World Conditions
+    title: Hybrid attention for robust RGB-T pedestrian detection in real-world conditions
     year: '2024'
   zC2Ri2MAAAAJ:YsMSGLbcyi4C:
-    citations: 8
+    citations: 9
     title: Effective utilization of space service volume through combined GNSS
     year: '2016'
   zC2Ri2MAAAAJ:bEWYMUwI8FkC:
@@ -113,10 +113,6 @@ papers:
     citations: 160
     title: 'A survey on deep learning-based monocular spacecraft pose estimation: Current state, limitations and prospects'
     year: '2023'
-  zC2Ri2MAAAAJ:g5m5HwL7SMYC:
-    citations: 0
-    title: Unsupervised Domain Adaptation for Sim-to-Real Object Pose Estimation with Contrastive Alignment and Pseudo-Label Refinement
-    year: '2026'
   zC2Ri2MAAAAJ:hFOr9nPyWt4C:
     citations: 7
     title: Pose estimation of a known texture-less space target using convolutional neural networks
@@ -138,11 +134,11 @@ papers:
     title: Octree-based mascon model for small body gravity fields
     year: '2019'
   zC2Ri2MAAAAJ:k_IJM867U9cC:
-    citations: 34
+    citations: 33
     title: 'Spades: A realistic spacecraft pose estimation dataset using event sensing'
-    year: '2023'
+    year: '2024'
   zC2Ri2MAAAAJ:lSLTfruPkqcC:
-    citations: 0
+    citations: 1
     title: Annotation Free Spacecraft Detection and Segmentation using Vision Language Models
     year: '2026'
   zC2Ri2MAAAAJ:ldfaerwXgEUC:
@@ -163,8 +159,8 @@ papers:
     year: '2025'
   zC2Ri2MAAAAJ:qUcmZB5y_30C:
     citations: 26
-    title: Lessons from a Space Lab--An Image Acquisition Perspective
-    year: '2022'
+    title: 'Lessons from a space lab: An image acquisition perspective'
+    year: '2023'
   zC2Ri2MAAAAJ:qxL8FJ1GzNcC:
     citations: 2
     title: Small body gravimetry using SLAM-based autonomous navigation
