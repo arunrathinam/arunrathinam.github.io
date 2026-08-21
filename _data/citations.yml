@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-08-21'
 papers:
   zC2Ri2MAAAAJ:-f6ydRqryjwC:
     citations: 23
@@ -110,7 +110,7 @@ papers:
     title: 'Autonomous robots for space: Trajectory learning and adaptation using imitation'
     year: '2021'
   zC2Ri2MAAAAJ:e5wmG9Sq2KIC:
-    citations: 160
+    citations: 161
     title: 'A survey on deep learning-based monocular spacecraft pose estimation: Current state, limitations and prospects'
     year: '2023'
   zC2Ri2MAAAAJ:hFOr9nPyWt4C:
