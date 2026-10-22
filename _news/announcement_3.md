@@ -8,7 +8,7 @@ related_posts: false
 
 I'll present about [Opportunities and Challenges in Deep Learning-based Spacecraft Pose Estimation for Future In-orbit Servicing missions](https://indico.esa.int/event/450/contributions/8928/attachments/5743/9499/ESA-CSID-Rathinam.pdf) at ESA CleanSpace Industry days
 
-This talk will discuss the challenges in selecting the hardware and choosing the correct algorithm development strategy for spacecraft pose estimation. Also, the challenges in algorithm development include domain gap, dataset generation, and model deployability, along with the opportunities in the evolution of current research to tackle these problems, including domain adaptation, multi-model training, neural architecture search and quantization-aware training. 
+This talk will discuss the challenges in selecting the hardware and choosing the correct algorithm development strategy for spacecraft pose estimation. Also, the challenges in algorithm development include domain gap, dataset generation, and model deployability, along with the opportunities in the evolution of current research to tackle these problems, including domain adaptation, multi-model training, neural architecture search and quantization-aware training.
 
 ---
 

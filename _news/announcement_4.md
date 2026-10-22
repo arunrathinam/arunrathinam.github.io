@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paper Accepted at ICRA'24 
+title: Paper Accepted at ICRA'24
 date: 2024-02-10 16:11:00-0400
 inline: false
 related_posts: false
