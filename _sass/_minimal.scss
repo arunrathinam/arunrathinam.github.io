@@ -211,7 +211,7 @@ body:has(.hero-band) .navbar {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 280px 1fr;
   gap: 3rem;
   align-items: center;
 }
@@ -223,8 +223,8 @@ body:has(.hero-band) .navbar {
   }
 
   img {
-    width: 240px;
-    height: 240px;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
     object-position: 50% 30%;
   }
@@ -320,8 +320,8 @@ body:has(.hero-band) .navbar {
   }
 
   .hero-photo img {
-    width: 150px;
-    height: 150px;
+    width: 176px;
+    height: 176px;
   }
 
   .hero-title {
@@ -760,5 +760,83 @@ footer.sticky-bottom {
 
   .container {
     color: var(--global-text-color-light);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Home: datasets
+// ---------------------------------------------------------------------------
+
+.block-intro {
+  text-align: center;
+  color: var(--global-text-color-light);
+  margin: -1rem 0 1.75rem;
+}
+
+.dataset-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.dataset-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.25rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  background: var(--global-card-bg-color);
+  box-shadow: var(--card-shadow);
+
+  .pub-links {
+    margin-top: auto; // keep buttons aligned at the bottom of each card
+  }
+}
+
+.dataset-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.dataset-name {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.dataset-desc {
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+  margin: 0;
+}
+
+.link-btn.is-hf {
+  border-color: #ffd21e;
+  background: #fff8db;
+  color: #6b4f00;
+  font-weight: 600;
+
+  &:hover {
+    border-color: #e6b800;
+    color: #4d3900;
+  }
+}
+
+html[data-theme="dark"] .link-btn.is-hf {
+  border-color: rgba(255, 210, 30, 0.45);
+  background: rgba(255, 210, 30, 0.1);
+  color: #ffd95e;
+
+  &:hover {
+    border-color: #ffd21e;
+    color: #ffe48a;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .dataset-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -15,7 +15,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid rounded' %}
           {% endif %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes="280px" alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes="320px" alt=page.profile.image
             cache_bust=true
           %}
         </div>
@@ -95,6 +95,43 @@ layout: default
         </div>
       {% endfor %}
       <p class="view-all"><a href="{{ '/publications/' | relative_url }}">View all publications &rarr;</a></p>
+    </section>
+  {% endif %}
+
+  <!-- Datasets (from _data/datasets.yml) -->
+  {% if page.show_datasets and site.data.datasets %}
+    <section class="home-block" id="datasets">
+      <h2 class="block-title">Datasets</h2>
+      <p class="block-intro">Open datasets I have authored for spacecraft perception. Download them from Hugging Face.</p>
+      <div class="dataset-grid">
+        {% for ds in site.data.datasets %}
+          <div class="dataset-card">
+            <div class="dataset-head">
+              <h3 class="dataset-name">{{ ds.name }}</h3>
+              {% if ds.venue -%}
+                <span class="venue-pill">{{ ds.venue }}</span>
+              {%- endif %}
+            </div>
+            {% if ds.description %}
+              <p class="dataset-desc">{{ ds.description }}</p>
+            {% endif %}
+            <div class="pub-links">
+              {% if ds.huggingface %}
+                <a class="link-btn is-hf" href="{{ ds.huggingface }}"><span aria-hidden="true">🤗</span> Hugging Face</a>
+              {% endif %}
+              {% if ds.paper %}
+                <a class="link-btn" href="{{ '/publications/' | relative_url }}#{{ ds.paper }}"><i class="fa-solid fa-file-lines"></i> Paper</a>
+              {% endif %}
+              {% if ds.website %}
+                <a class="link-btn" href="{{ ds.website }}"><i class="fa-solid fa-globe"></i> Website</a>
+              {% endif %}
+              {% if ds.doi %}
+                <a class="link-btn" href="https://doi.org/{{ ds.doi }}"><i class="ai ai-doi"></i> Zenodo</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     </section>
   {% endif %}
 </div>

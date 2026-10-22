@@ -13,7 +13,7 @@ social: true # shows the Scholar / ORCID / GitHub / LinkedIn / CV buttons
 
 announcements:
   enabled: true # includes a list of news items
-  limit: 8 # leave blank to include all the news in the `_news` folder
+  limit: 10 # leave blank to include all the news in the `_news` folder
 
 # Selected publications, grouped by topic.
 # Each paper joins a group via its `topic` field in _bibliography/papers.bib.
@@ -26,6 +26,8 @@ selected_topics:
     name: Datasets & Benchmarks
   - id: perception
     name: Detection & Perception
+
+show_datasets: true # shows the Datasets section (edit _data/datasets.yml)
 
 latest_posts:
   enabled: false

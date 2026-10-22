@@ -1,0 +1,53 @@
+# Datasets shown in the "Datasets" section of the home page (newest first).
+# Fields:
+#   name:        short name shown as the card title
+#   venue:       small pill next to the name
+#   description: one or two sentences
+#   huggingface: Hugging Face dataset URL (shown as the main download button)
+#   paper:       bib key of the related paper (links to the Publications page)
+#   website:     project / challenge page
+#   doi:         dataset DOI (e.g. Zenodo)
+
+- name: SPARK 2026
+  venue: CVPR 2026 Challenge
+  description: Synthetic RGB spacecraft images with bounding boxes and segmentation masks for 10 spacecraft classes (~360k samples), released for Stream 1 of the SPARK 2026 challenge.
+  huggingface: https://huggingface.co/datasets/CVI2-UniLU/SPARK-2026
+  website: https://cvi2.uni.lu/spark2026/
+
+- name: ECLIPSE
+  venue: NeurIPS 2026
+  description: Spacecraft rendezvous trajectories with controlled in-orbit lighting conditions.
+  huggingface: https://huggingface.co/datasets/CVI2-UniLU/ECLIPSE
+  paper: chenni2026eclipse
+
+- name: SPADES
+  venue: ICRA 2024
+  description: Synthetic and real event-camera data of a satellite for spacecraft pose estimation — 300 synthetic trajectories with 179,400 pose labels.
+  huggingface: https://huggingface.co/datasets/CVI2-UniLU/SPADES
+  paper: rathinam2024spades
+  website: https://cvi2.uni.lu/spades/
+
+- name: SPADES-RGB
+  venue: RGB companion
+  description: RGB spacecraft images with 6-DoF pose, bounding-box and keypoint annotations (~180k samples).
+  huggingface: https://huggingface.co/datasets/CVI2-UniLU/SPADES-RGB
+
+- name: SPARK 2024
+  venue: CVPR 2024 Challenge
+  description: Monocular RGB sequences with per-frame 6-DoF pose labels for spacecraft trajectory estimation — 100 training trajectories (30,000 images).
+  huggingface: https://huggingface.co/datasets/CVI2-UniLU/SPARK-2024
+  paper: rathinam2024spark
+  doi: 10.5281/zenodo.10908214
+
+- name: SPARK 2022
+  venue: ECCV 2022 Challenge
+  description: 110,000 RGB images of 10 spacecraft and a debris class with bounding-box labels, for spacecraft detection and classification.
+  huggingface: https://huggingface.co/datasets/CVI2-UniLU/SPARK-2022
+  paper: rathinam2022spark
+  doi: 10.5281/zenodo.6599762
+
+- name: AKM
+  venue: Zenodo
+  description: Textureless space target dataset for pose estimation of a known texture-less target.
+  paper: rathinam2022akm
+  doi: 10.5281/zenodo.7744505
