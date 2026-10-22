@@ -2,24 +2,33 @@
 layout: about
 title: About
 permalink: /
+greeting: Hi, I'm # shown before your name in the header
 subtitle: Research Scientist @ University of Luxembourg
 
 profile:
-  align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+  image_circular: true # crops the image to make it circular
+show_email: true # shows your email (from _data/socials.yml) in a box under the bio
+social: true # shows the Scholar / ORCID / GitHub / LinkedIn / CV buttons
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 4 # leave blank to include all the news in the `_news` folder
+  limit: 8 # leave blank to include all the news in the `_news` folder
+
+# Selected publications, grouped by topic.
+# Each paper joins a group via its `topic` field in _bibliography/papers.bib.
+selected_topics:
+  - id: pose
+    name: Spacecraft Pose Estimation
+  - id: adaptation
+    name: Domain Adaptation
+  - id: datasets
+    name: Datasets & Benchmarks
+  - id: perception
+    name: Detection & Perception
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 I am a Research Scientist at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg.

@@ -1,0 +1,20 @@
+{% comment %}
+  Bulleted news list: "Month Year — text".
+  Optional: include.limit (number of items to show).
+{% endcomment %}
+{% assign news = site.news | reverse %}
+{% assign news_limit = include.limit | default: news.size %}
+<ul class="news-list">
+  {% for item in news limit: news_limit %}
+    <li>
+      <span class="news-date">{{ item.date | date: '%B %Y' }}</span>
+      <span class="news-text">
+        {% if item.inline %}
+          {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+        {% else %}
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endif %}
+      </span>
+    </li>
+  {% endfor %}
+</ul>
