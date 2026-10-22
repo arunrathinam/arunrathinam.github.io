@@ -1,43 +1,52 @@
 cv:
   name: Arunkumar Rathinam
-  label: Research Scientist
-  email: arunkumar.rathinam@uni.lu
+  headline: Research Scientist
   location: Luxembourg
-  image: ""
-  summary: Research Scientist at SnT, University of Luxembourg, working at the intersection of computer vision and space robotics, with a focus on bridging the gap between simulation and real data for spacecraft pose estimation and autonomous relative navigation.
+  email: arunkumar.rathinam@uni.lu
+  website: https://arunrathinam.github.io
 
   social_networks:
     - network: LinkedIn
       username: arunsz
     - network: GitHub
       username: arunrathinam
+    - network: Google Scholar
+      username: zC2Ri2MAAAAJ
+    - network: ORCID
+      username: 0000-0002-2231-0734
 
   sections:
+    Summary:
+      - Research Scientist at SnT, University of Luxembourg, working at the intersection of computer vision and space robotics, with a focus on bridging the gap between simulation and real data for spacecraft pose estimation and autonomous relative navigation.
+
+    Research Interests:
+      - bullet: Computer Vision for Space Robotics, 6DoF Pose Estimation, Unsupervised Domain Adaptation, Space Situational Awareness (SSA), On-board AI / Edge Computing, Small Body Exploration, and Autonomous Relative Navigation.
+
     Education:
-      - institution: University of New South Wales (UNSW Sydney)
-        location: Sydney, Australia
+      - institution: UNSW Sydney
         area: Space Robotics
-        studyType: PhD
-        start_date: 2015
-        end_date: 2019
+        degree: PhD
+        location: Sydney, Australia
+        start_date: 2015-10
+        end_date: 2019-05
         highlights:
-          - "Thesis: Small Body Gravimetry using SLAM-based Autonomous Navigation."
+          - "**Thesis:** Small Body Gravimetry using SLAM-based Autonomous Navigation."
 
       - institution: University of Würzburg
-        location: Würzburg, Germany
         area: Space Science and Technology
-        studyType: M.Sc.
-        start_date: 2012
-        end_date: 2015
+        degree: M.Sc.
+        location: Würzburg, Germany
+        start_date: 2012-10
+        end_date: 2015-05
         highlights:
-          - "Thesis: Design and development of UWE-4 CubeSat: Integration of electric propulsion, structural analysis, and orbital heating analysis."
+          - "**Thesis:** Design and development of UWE-4 CubeSat: Integration of electric propulsion, structural analysis, and orbital heating analysis."
 
       - institution: Anna University
-        location: Chennai, India
         area: Mechanical Engineering
-        studyType: B.E.
-        start_date: 2003
-        end_date: 2007
+        degree: B.E.
+        location: Chennai, India
+        start_date: 2003-08
+        end_date: 2007-05
         highlights:
           - First Class with Distinction.
 
@@ -47,31 +56,24 @@ cv:
         location: Luxembourg
         start_date: 2024-09
         end_date: present
-        highlights:
-          - Leading the DIOSSA project (ESA GSTP), a multi-phase initiative developing deep learning solutions for spacecraft pose estimation.
 
       - company: SnT, University of Luxembourg
         position: Research Associate
         location: Luxembourg
         start_date: 2021-09
         end_date: 2024-08
-        highlights:
-          - Technical Lead on industrial partnership with LMO on unsupervised domain adaptation for spacecraft pose estimation.
 
       - company: Surrey Space Centre, University of Surrey
         position: Research Associate
         location: United Kingdom
         start_date: 2019-05
         end_date: 2021-09
-        highlights:
-          - Developed deep learning algorithms for 6DoF spacecraft pose estimation under the FAIR-SPACE project.
 
       - company: SKF Technologies Limited
         position: Product Engineer
         location: India
         start_date: 2011-01
         end_date: 2012-09
-        highlights:
 
       - company: TATA Consultancy Services (TCS)
         position: Design Engineer
@@ -79,26 +81,180 @@ cv:
         start_date: 2007-12
         end_date: 2011-01
 
-    Space Mission Experience:
-      - name: SnT-AI4SPACE Mission
-        summary: Deployed an onboard AI anomaly detection system, validated on flight hardware.
+    Research Projects:
+      - company: DIOSSA Project [ESA GSTP], Phase 1 (24M) & Phase 2 (18M)
+        position: Program Lead
+        location: SnT, University of Luxembourg
+        start_date: 2022
+        end_date: 2026
+        highlights:
+          - Leading a team of researchers developing deep learning solutions for spacecraft pose estimation.
+          - Managing the full project lifecycle, including work package execution, monitoring, and progress reporting.
+          - Delivered all Phase 1 milestones and defined the scientific roadmap for Phase 2.
+          - "**Outcomes:** 3 successful ESA reviews and 5 conference publications."
+
+      - company: Partnership Project with LMO
+        position: Technical Lead
+        location: SnT, University of Luxembourg
+        start_date: 2023
+        end_date: 2026
+        highlights:
+          - Guiding research strategy on Unsupervised Domain Adaptation (UDA) for spacecraft pose estimation, aligning academic research with industrial partner requirements.
+          - Co-supervising PhD research on UDA for 6D pose estimation.
+
+      - company: MEET-A [FNR Bridges], ENERGETIC [EU Horizon]
+        position: Researcher
+        location: SnT, University of Luxembourg
+        start_date: 2022
+        end_date: 2025
+        highlights:
+          - Provided simulation expertise across research use cases, including battery thermal simulation (ENERGETIC) and spacecraft data simulation (MEET-A).
+
+      - company: FAIR-SPACE
+        position: Researcher
+        location: University of Surrey, UK
+        start_date: 2019
+        end_date: 2021
+        highlights:
+          - "**Research:** Developed deep learning algorithms for 6DoF spacecraft pose estimation in non-cooperative target scenarios."
+          - "**Edge AI:** Evaluated the algorithms on edge hardware with hardware-in-the-loop experiments."
+          - "**Tech transfer:** Developed ORVIS, an orbital simulation tool that generates training data for relative navigation."
+          - "**Output:** 2 journal publications, 1 book chapter, 2 conference publications; supported 1 start-up initiative."
+
+    Space Missions:
+      - company: SnT-AI4SPACE Mission (Deployed)
+        position: CV and ML Lead
+        location: University of Luxembourg
         start_date: 2022
         end_date: 2023
+        highlights:
+          - Developed and deployed an onboard AI anomaly detection system, validated on flight hardware.
 
-      - name: AUDACITY Mission
-        summary: Developed an onboard AI algorithm for SSA spacecraft detection in collaboration with LMO.
+      - company: AUDACITY Mission (Deployed)
+        position: Simulation Lead
+        location: University of Luxembourg
         start_date: 2023
         end_date: 2023
+        highlights:
+          - Designed and deployed an onboard AI algorithm for SSA spacecraft detection, in collaboration with LMO.
 
-      - name: UWE-4 CubeSat Mission
-        summary: Developed mechanical design for electric propulsion integration, verified via structural and orbital thermal analysis.
+      - company: UWE-4 CubeSat Mission (Deployed)
+        position: Student Researcher (Master's Thesis)
+        location: University of Würzburg, Germany
         start_date: 2015
         end_date: 2015
+        highlights:
+          - Developed the mechanical design of the CubeSat for electric propulsion integration, verified via structural and orbital thermal analysis.
+
+    Laboratory Experience:
+      - company: Zero-G Lab
+        position: Operations Lead (for CVI²)
+        location: University of Luxembourg
+        start_date: 2022
+        end_date: 2026
+        highlights:
+          - Manage end-to-end data-collection campaigns, including requirements gathering, test-plan development, and execution.
+          - Coordinate collaborations with other research groups to streamline workflows and align objectives.
+          - Align research strategy with equipment and procurement needs, ensuring timely acquisition of resources.
+          - "**Outcomes:** 3 major 6D pose datasets, 4 partner data-acquisition campaigns, and 2 journal articles."
+
+      - company: Computer Vision Lab
+        position: Coordinator
+        location: University of Luxembourg
+        start_date: 2022
+        end_date: 2026
+        highlights:
+          - Overseeing lab setup, project demos, and equipment procurement.
+          - Setting up and maintaining the CVI² GPU servers for the research group.
+
+      - company: Orbital Robotics Testbed @ STAR LAB
+        position: Researcher and Coordinator
+        location: University of Surrey, UK
+        start_date: 2020-01
+        end_date: 2021-05
+        highlights:
+          - Coordinated testbed development for experimental validation of relative navigation algorithms.
+
+      - company: FloatSat Testbed
+        position: Research Assistant
+        location: University of Würzburg, Germany
+        start_date: 2020-01
+        end_date: 2021-05
+        highlights:
+          - Designed and implemented a testbed on spherical air bearings for experimental validation of CubeSat ADCS.
+
+    Grant Proposals & Funding:
+      - bullet: "**Co-Author:** FNR Bridges U-ADAPT (2025) — **Funded**"
+      - bullet: "**Co-Author:** ESA Proposal DIOSSA Phase 2 (2024) — **Funded**"
+      - bullet: "**Lead Author:** FNR Junior CORE Sentient-3D (2022) — Not funded"
+      - bullet: "**Contributor:** FNR CORE DA-GAP (2023); EDF REAL-AI (2022)"
+
+    Research Supervision:
+      - bullet: "**PhD co-supervision:** Nidhal E. Chenni (2024–present) — *Domain Adaptation for 6DoF Pose Estimation.* Output: 3 conference papers (A/A*)."
+      - bullet: "**PhD co-supervision:** Ala Souissi (2025–present) — *Leveraging Event Sensing for 6DoF Pose Estimation and Tracking.*"
+      - bullet: "**Master's thesis:** Haytam Qadadri (2023) — *Spacecraft Pose Estimation using Neuromorphic Sensors.* Output: 1 conference paper (A*)."
+
+    Teaching:
+      - company: Computer Vision and Image Analysis (CVIA)
+        position: Course Project & Lab Coordinator
+        location: University of Luxembourg
+        start_date: 2022
+        end_date: 2026
+        highlights:
+          - Coordinating course projects for the MICS and MSTB Master's programmes and MSTB lab sessions.
+
+      - company: "ELEC3106: Engineering Course"
+        position: Teaching Assistant
+        location: UNSW Sydney, Australia
+        start_date: 2018
+        end_date: 2019
+        highlights:
+          - Facilitated laboratory sessions and exam evaluations for undergraduate engineering students.
+
+    Scientific Service:
+      - bullet: "**Co-Organizer:** AI4SPACE Workshop @ CVPR (2026, 2024), ECCV (2022)"
+      - bullet: "**Lead Organizer:** SPARK Challenge @ CVPR (2026, 2024), ECCV (2022)"
+      - bullet: "**Session Chair:** EUVIP 2026"
+      - bullet: "**External Advisor:** Neuromorphic Hackathon (2024) @ fortiss, Munich"
+      - bullet: "**Program Committee:** IGNSS Conference (2016, 2017)"
+
+    Peer Review:
+      - label: Conferences
+        details: NeurIPS ('26, '25), CVPR ('26, '24), ECCV ('26, '24, '22), ICRA ('26, '25), WACV ('25), IROS ('23), AI4SPACE Workshop ('26, '24, '22), NEVI Workshop ('24)
+      - label: Journals
+        details: Int. Journal of Robotics Research (IJRR), IEEE Robotics and Automation Letters (RA-L), IEEE Signal Processing Letters (SPL), IEEE Trans. on Aerospace and Electronic Systems, Advances in Space Research (ASR)
+
+    Invited Talks:
+      - bullet: "**Oct 2023** — ESA CleanSpace Industry Days, ESTEC, Netherlands: *DL-based spacecraft pose estimation: Opportunities and challenges for future in-orbit servicing missions.*"
+      - bullet: "**Sep 2020** — FAIR-SPACE Workshop, Liverpool, UK: *On-orbit relative pose estimation of a non-cooperative target using convolutional neural networks.*"
+      - bullet: "**Oct 2018** — 17th Space Generation Congress, Bremen, Germany: *Reusable CubeSat constellation for asteroid rover navigation and communication.*"
+      - bullet: "**Sep 2017** — 3rd Off Earth Mining Forum, UNSW Sydney, Australia: *Autonomous spacecraft navigation near an asteroid.*"
+
+    Technical Skills:
+      - label: Deep Learning
+        details: PyTorch, PyTorch Lightning, TensorFlow, Hydra, OpenCV, NumPy
+      - label: Robotics & Simulation
+        details: ROS, PANGU (ESA), Unreal Engine 4, Blender
+      - label: Programming
+        details: Python, C++, MATLAB, Julia
+      - label: Embedded AI
+        details: NVIDIA Jetson (Nano / Xavier NX), Arduino, edge inference optimization
+      - label: Mechanical Engineering
+        details: "CAD: Creo, CATIA V5, SolidWorks, Inventor; FEM/FEA: NASTRAN, COMSOL"
+      - label: DevOps & Tools
+        details: Git, Docker, Windchill PDM, Nginx, Gunicorn
+
+    Honors & Awards:
+      - bullet: "**Winner, Move an Asteroid Technical Paper Competition** (2018) — Space Generation Advisory Council (SGAC), Bremen"
+      - bullet: "**IAC Travel Grant / Sponsorship** (2017) — National Space Society of Australia, to attend the International Astronautical Congress"
+      - bullet: "**UNSW Departmental PhD Scholarship** (2015) — Full tuition plus living stipend for the duration of candidature"
+      - bullet: "**Erasmus Mobility Grant** (2013) — Competitive grant for a Master's exchange year"
+      - bullet: "**Top Achiever Award, SKF** (2012) — Ranked 1st in performance assessment at SKF India"
 
     Languages:
       - name: English
-        summary: "Fluent"
+        summary: Fluent
       - name: Tamil
-        summary: "Native speaker"
+        summary: Native speaker
       - name: German
-        summary: "Basic"
+        summary: Basic
